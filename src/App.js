@@ -7,9 +7,9 @@ import { useDispatch } from "react-redux";
 export default function App() {
   const dispatch = useDispatch();
   const handleResetClick = () => {
-    //dispatch(resetSong());
-    //dispatch(resetMovie());
-    dispatch(extraReducers());
+    dispatch(resetSong());
+    dispatch(resetMovie());
+    //dispatch(extraReducers());
   };
 
   return (
